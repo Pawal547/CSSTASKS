@@ -1,0 +1,68 @@
+
+
+html{
+    border: 10px solid yellow;
+    margin: 0px;
+}
+body{
+
+    background-color: pink;
+}
+
+#px {
+    background-color: aqua;
+    height: 160px;
+    width: 160px;
+}
+
+#emparent{
+    background-color: blue;
+    font-size: 15px;
+}
+/*1 em = 16 px */
+#em1{
+background-color: red;
+
+}
+#em2{
+        background-color:aqua;
+    font-size: 3em;}
+
+    #remparent{
+        background-color: yellow;
+        font-size: 15px;
+    }
+    /*1 em = 16 px */
+    #rem1{
+    background-color: blue;
+    
+    }
+    #rem2{
+            background-color: green;
+        font-size: 3em;}
+
+        #percantparent{
+ background-color: green;
+        width:50% ;
+        height: 110px;
+        
+        }
+        #percent{
+            background-color:red;
+            width:50% ;
+            height: 50%;
+
+        }
+
+        #vwvhparent{
+            background-color: green;
+                   width:40vw ;
+                   height: 45vh;
+                   
+                   }
+                   #vwvh{
+                       background-color:red;
+                       width:20vw ;
+                       height: 25vh;
+           
+                   }

@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image:url("netflix baground.jpg"); 
+height: 100vh;
+  display: flex;
+align-items: center;
+ justify-content: center;
+ font-family:sans-serif;;
+}
+
+#formcontainer{
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 92vh;
+    width: 29vw;
+    padding: 5rem 3.5rem;
+    color: #b3b3b3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#formcontainer >h1{
+    color: white;
+}
+#loginform{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    height: 50%;
+}
+
+#loginform > input{
+    padding: 0.9rem 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(68, 64, 64);
+    color: white;
+}
+#passwordfild{
+margin-bottom: 1.5rem;
+}
+input[type="submit"] {
+    background-color: red !important;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+#formbottemrow{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+#footer{
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

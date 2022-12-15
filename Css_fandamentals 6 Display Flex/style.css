@@ -1,0 +1,57 @@
+.boxcontainer{
+ background-color: pink;
+ padding: 1rem;
+ display: flex;
+
+}
+.box{
+background-color: blue;
+margin: 1rem;
+padding: 1rem ;
+color: white;
+height: 3rem;
+width: 3rem;
+}
+#column{
+    flex-direction: column;
+}
+
+#rowreverse{
+    flex-direction: row-reverse;
+}
+#columnreverse{
+
+    flex-direction: column-reverse;
+}
+
+#justify-content{
+
+    justify-content: space-around;
+    
+}
+#space-evenly{
+
+    justify-content: space-evenly;
+    
+}
+#space-between{
+
+    justify-content: space-between;
+}
+
+#justify-content{
+    justify-content: space-around;
+}
+
+
+.col-box{
+    background-color: pink;
+    padding: 1rem;
+    display: flex;
+   
+}
+#box1{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}

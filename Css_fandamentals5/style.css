@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Kaushan+Script&display=swap');
+
+
+body{
+
+    background-color: pink;
+}
+#heading1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#heading2{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#heading3{
+
+    font-family:monospace;
+}
+p{    
+    font-family: 'Allura', cursive;
+
+font-weight: 500;
+font-size: 25px;
+
+}
+
+.box{
+background-color: green;
+width: 11rem;
+height: 11rem;
+border: 2px solid yellow;
+}
+#box1{
+    position: relative;
+    background-color: blue;
+    z-index: 1;
+}
+
+#box2{
+    background-color: purple;
+    margin-top: -6rem;
+    margin-left: 5rem;
+    z-index: 0;
+}
+#box3{
+
+    background-color: aqua;
+    margin-top: 1rem;
+    min-height:25vh;
+    min-width: 25vw;
+}
+ /*display */
+
+#heading4 {
+    background-color: rgb(196, 203, 218);
+    display: inline;
+}
+
+#link1{
+            background-color: red;}
+
+            #link2{
+                background-color: rgb(239, 101, 252);
+                display: block;
+               
+              height: 5rem;
+            }
+
+   #link3{
+    display:inline-block ;
+    background-color: aqua;
+width: 5rem;
+    height: 5rem;
+   }         
+
+
+  
+   
+   #link4{
+
+    display: none;
+   }
+   #card{
+background-color: red;
+
+   }
+
+   /*relative position*/
+   #relativbtn{
+
+    background-color: green;
+    position: relative;
+    bottom: 10rem;
+    left: 74rem;
+   }
+   #card1{
+    background-color: red;
+    
+       }
+
+        /*absolute position*/
+       #absolutebtn{
+    
+        background-color: green;
+        position: absolute;
+        top:  1rem;
+        right:  1rem;
+       }
+       #msg{
+        background-color: rgb(27, 27, 146);
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        bottom: 1rem;
+        right: 1rem;
+        position: fixed;
+        cursor: pointer;
+    
+       }
+    
+       #msg:hover{
+        background-color:red ;
+       }
+
+       #sticky{
+        background-color: skyblue;
+        position: sticky;
+        top: 15rem;
+       }
